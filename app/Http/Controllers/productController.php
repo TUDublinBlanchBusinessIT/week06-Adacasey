@@ -42,7 +42,7 @@ class productController extends Controller
             $totalItems=0;
             echo "no cart";
         }
-        return view('product.displaygrid')->with('products',$products)->with('totalItems',$totalItems);
+        return view('products.displaygrid')->with('products',$products)->with('totalItems',$totalItems);
     }
 
     public function emptycart()

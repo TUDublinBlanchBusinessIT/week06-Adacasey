@@ -20,3 +20,4 @@ Route::get('product/additem/{id}', 'App\Http\Controllers\productController@addit
 Route::get('scorder/checkout', 'App\Http\Controllers\scordersController@checkout')->name('scorder.checkout');
 
 Route::post('scorder/placeorder', 'App\Http\Controllers\scordersController@placeorder')->name('scorder.placeorder');
+Route::get('product/displaygrid', 'App\Http\Controllers\productController@displaygrid')->name('product.displaygrid');

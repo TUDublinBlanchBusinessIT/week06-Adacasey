@@ -1,3 +1,4 @@
+@extends('layouts.app')
 @section('content')
 <div style="padding-top:1%">
     <nav class="navbar navbar-right navbar-expand-sm navbar-dark bg-dark">
